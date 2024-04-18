@@ -1,9 +1,9 @@
 import { Text, Box, Grid, GridItem } from '@chakra-ui/react';
-import Navbar from '../../components/Navbar';
 import Breadcrums from './components/breadcrums';
 import ListCheckout from './components/ListCheckoutCard';
 import OrderSummary from './components/orderSummart';
 import Footers from '../../components/footers';
+import Navbar from '../../components/navbar';
 
 function Checkout() {
   return (
