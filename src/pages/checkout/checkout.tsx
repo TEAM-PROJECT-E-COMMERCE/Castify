@@ -1,8 +1,9 @@
-import { Text, Box, Grid } from '@chakra-ui/react';
+import { Text, Box, Grid, GridItem } from '@chakra-ui/react';
 import Navbar from '../../components/Navbar';
 import Breadcrums from './components/breadcrums';
 import ListCheckout from './components/ListCheckoutCard';
 import OrderSummary from './components/orderSummart';
+import Footers from '../../components/footers';
 
 function Checkout() {
   return (
@@ -14,11 +15,19 @@ function Checkout() {
         <Text fontWeight="bold" fontSize="40px" mt="20px">
           Your Cart
         </Text>
-        <Grid templateColumns="repeat(1, 1fr)" gap={6}>
-          <ListCheckout />
-          <OrderSummary />
+        <Grid templateColumns="repeat(4, 1fr)">
+          <GridItem colSpan={3}>
+            <Grid gap={4}>
+              <ListCheckout />
+            </Grid>
+          </GridItem>
+
+          <GridItem colSpan={1}>
+            <OrderSummary />
+          </GridItem>
         </Grid>
       </Box>
+      <Footers />
     </>
   );
 }

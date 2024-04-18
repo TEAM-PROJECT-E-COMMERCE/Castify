@@ -126,7 +126,6 @@ const Footers = () => {
               h="100%"
               justifyContent="center"
               alignItems="end"
-              align
               gap="5"
               p="5"
             >

@@ -2,7 +2,7 @@ import { Box, Button, Card, Divider, Flex, Heading, Text } from "@chakra-ui/reac
 import ListBrands from "./components/ListBrands";
 import CardProduct from "./components/newArivalscomp/CardProduct";
 import CardBestSeller from "./components/bestSellers/CardBestSeller";
-import Navbar from "../../components/navbar";
+import Navbar from "../../components/Navbar";
 
 const Home = () => {
   return (
