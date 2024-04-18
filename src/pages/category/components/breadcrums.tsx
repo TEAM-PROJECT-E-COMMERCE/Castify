@@ -4,7 +4,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 function Breadcrums() {
   return (
     <>
-      <Breadcrumb spacing="8px" separator={<ChevronRightIcon color="gray.500" />}>
+      <Breadcrumb spacing="8px" ms='45px' position='relative' top='20px' separator={<ChevronRightIcon color="gray.500" />}>
         <BreadcrumbItem>
           <BreadcrumbLink href="/">Home</BreadcrumbLink>
         </BreadcrumbItem>
