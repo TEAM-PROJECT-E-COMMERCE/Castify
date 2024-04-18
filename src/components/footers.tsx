@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Box,
   Text,
@@ -6,7 +5,6 @@ import {
   GridItem,
   Flex,
   Button,
-  Icon,
 } from "@chakra-ui/react";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
@@ -126,7 +124,6 @@ const Footers = () => {
               h="100%"
               justifyContent="center"
               alignItems="end"
-              align
               gap="5"
               p="5"
             >
