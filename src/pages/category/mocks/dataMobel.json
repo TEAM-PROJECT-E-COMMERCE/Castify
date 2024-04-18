@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Chevrolet Chevy 2015",
+    "rating": 1.5,
+    "harga": "Rp. 100.000.000",
+    "image": "https://asset.kompas.com/crops/jq9cEEyryqELyEjNQZfkkx3X1eI=/0x0:1000x500/1200x800/data/photo/2017/04/10/3394839643.jpg"
+  },
+  {
+    "name": "Isuzu Panther 2010",
+    "rating": 5,
+    "harga": "Rp. 200.000.000",
+    "image": "https://asset.kompas.com/crops/scKt1aZThCvV5n1xX28wx5xznmg=/0x68:1080x788/1200x800/data/photo/2022/09/20/63291a14bbeec.jpg"
+  },
+  {
+    "name": "Daihatsu Sigra 2018",
+    "rating": 3,
+    "harga": "Rp. 90.000.000",
+    "image": "https://mocil.id/uploads/vehicle/size-md-720--Qajax7QntLMccyrNPJ80028okY9WRcMallAZdiI4.jpg"
+  },
+  {
+    "name": "Honda Civic Estilo",
+    "rating": 2.5,
+    "harga": "Rp. 450.000.000",
+    "image": "https://www.blackxperience.com/assets/content/blackauto/autonews/honda-civic-estilo-kece-dandan-street-racing-pic2.jpg"
+  },
+  {
+    "name": "Wuling Air EV 2022",
+    "rating": 4,
+    "harga": "Rp. 50.000.000",
+    "image": "https://cdn0-production-images-kly.akamaized.net/y90aspJlzaRM80C5HnIWpjO_SI8=/0x0:1511x1511/1200x1200/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4040747/original/021652600_1654167687-image-81614b89cd078b52da9b5aa19924ec3363816218.jpeg"
+  }
+]

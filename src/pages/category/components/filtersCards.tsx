@@ -1,10 +1,10 @@
-import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Radio, RadioGroup, Select, Stack, Text } from '@chakra-ui/react';
+import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Button, Input, Select, Text } from '@chakra-ui/react';
 import Icons from './icons';
 
 function FiltersCards() {
   return (
     <>
-      <Box border="1px" borderRadius="15px" borderColor="#EDEDED" w="280px" h="500px" boxShadow="lg" mt="30px" ms="30px">
+      <Box border="1px" borderRadius="15px" borderColor="#EDEDED" w="280px" h="700px" boxShadow="lg" mt="30px" ms="30px">
         <Text fontWeight="bold" p="20px" fontSize="23px">
           Filters
         </Text>
@@ -30,7 +30,7 @@ function FiltersCards() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem mt="10px">
               <h2>
                 <AccordionButton>
                   <Box as="span" flex="1" textAlign="left">
@@ -48,7 +48,7 @@ function FiltersCards() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem mt="10px">
               <h2>
                 <AccordionButton>
                   <Box as="span" flex="1" textAlign="left">
@@ -58,7 +58,7 @@ function FiltersCards() {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <Select border="1px" borderColor="#EDEDED" mt="5px" borderRadius="5px">
+                <Select border="1px" borderColor="#EDEDED" mt="5px" borderRadius="5px" size="md">
                   <option value="option1">Sedan</option>
                   <option value="option2">sUV</option>
                   <option value="option3">Crossover</option>
@@ -67,17 +67,22 @@ function FiltersCards() {
             </AccordionItem>
           </Accordion>
         </Box>
-        <Box border="1px" borderColor="#EDEDED" w="250px" ms="15px" mt="-10px" />
-        <Text fontWeight="bold" p="20px" fontSize="23px" mt="-10px">
-          Price
-        </Text>
-        <RadioGroup defaultValue="1">
-          <Stack ms='30px'>
-            <Radio value="1" colorScheme='red'>Rp. 5.000.000 - Rp. 15.000.000</Radio>
-            <Radio value="2" colorScheme='red'>Rp. 5.000.000 - Rp. 15.000.000</Radio>
-            <Radio value="3" colorScheme='red'>Rp. 5.000.000 - Rp. 15.000.000</Radio>
-          </Stack>
-        </RadioGroup>
+        <Box p="20px">
+          <Text fontWeight="bold" fontSize="23px" mt="-10px">
+            Price
+          </Text>
+          <Box border="1px" mt='10px' borderColor="#EDEDED" w="250px" ms="-4px" />
+
+          <Text mt="10px">Minimum</Text>
+          <Input border="1px" borderColor="#EDEDED" borderRadius="8px" p="15px" placeholder="Rp. " mb="15px" />
+
+          <Text mt="10px">Maximum</Text>
+          <Input border="1px" borderColor="#EDEDED" borderRadius="8px" p="15px" placeholder="Rp. " />
+
+          <Button bgColor="#000000" color='white' variant="outline" w='200px' h='35px' p='20px' borderRadius='30px' ms='8px' mt='20px'>
+            Apply Filter
+          </Button>
+        </Box>
       </Box>
     </>
   );
