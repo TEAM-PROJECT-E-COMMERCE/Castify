@@ -3,7 +3,7 @@ import Icons from './icons';
 
 function FiltersCards() {
   return (
-    <>
+    <Box mb='24'>
       <Box border="1px" borderRadius="15px" borderColor="#EDEDED" w="280px" h="700px" boxShadow="lg" mt="30px" ms="30px">
         <Text fontWeight="bold" p="20px" fontSize="23px">
           Filters
@@ -84,7 +84,7 @@ function FiltersCards() {
           </Button>
         </Box>
       </Box>
-    </>
+    </Box>
   );
 }
 
