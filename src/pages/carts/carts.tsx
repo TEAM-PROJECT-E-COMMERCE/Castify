@@ -5,7 +5,7 @@ import OrderSummary from './components/orderSummart';
 import Navbar from '../../components/navbar';
 import Footers from '../../components/footers';
 
-function Checkout() {
+function Carts() {
   return (
     <>
       <Navbar />
@@ -32,4 +32,4 @@ function Checkout() {
   );
 }
 
-export default Checkout;
+export default Carts;
