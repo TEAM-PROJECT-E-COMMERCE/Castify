@@ -2,7 +2,7 @@ import { Button, Icon } from '@chakra-ui/react';
 
 function Icons() {
   return (
-    <Button position="absolute" left="270px" top="85px" boxSize="20px">
+    <Button position="absolute" left="255px" top="165px" boxSize="20px">
       <Icon>
         <path
           xmlns="http://www.w3.org/2000/svg"

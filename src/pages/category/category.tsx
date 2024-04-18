@@ -5,6 +5,7 @@ import { IoStarSharp } from 'react-icons/io5';
 import dataMobel from './mocks/dataMobel.json';
 import { Rating, Star } from '@smastrom/react-rating';
 import '@smastrom/react-rating/style.css';
+import Navbar from '../../components/Navbar';
 
 function Category() {
   const myStyles = {
@@ -14,8 +15,9 @@ function Category() {
   };
   return (
     <>
+      <Navbar />
       <Breadcrums />
-      <Box position="absolute" left="360px" top="50px">
+      <Box position="absolute" left="360px" top="140px">
         <Text fontSize="30px" fontWeight="bold">
           Car
         </Text>
