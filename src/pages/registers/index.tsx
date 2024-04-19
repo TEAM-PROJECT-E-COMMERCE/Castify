@@ -65,10 +65,10 @@ const RegisterPage = () => {
           <Text fontSize={"2xl"}>Sign up now</Text>
         </Box>
         <Text>Fullname</Text>
-        <Input my={2} placeholder="Fullname" size="md" />
+        <Input my={2} placeholder="Fullname" type="text" name="fullname" size="md" />
 
         <Text>Email address</Text>
-        <Input my={2} placeholder="Fullname" size="md" />
+        <Input my={2} placeholder="Email" type="email" name="email" size="md" />
 
         <Text>Phone number</Text>
         <InputGroup my={2}>
@@ -81,10 +81,10 @@ const RegisterPage = () => {
             <option value="+62">Indonesia (+62)</option>
             {/* Tambahkan negara lain di sini */}
           </Select>
-          <Input type="tel" placeholder="Nomor telepon" />
+          <Input type="tel" name="phone" placeholder="Nomor telepon" />
         </InputGroup>
         <Flex justifyContent={"space-between"}>
-          <Text>Phone number</Text>
+          <Text>Password</Text>
           <Stack direction="row" align="center">
             <IconButton
               h="1.75rem"
@@ -102,6 +102,7 @@ const RegisterPage = () => {
           my={2}
           size="md"
           pr="4.5rem"
+          name="password"
           type={show ? "text" : "password"}
           placeholder="Enter password"
         />

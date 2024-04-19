@@ -9,8 +9,8 @@ function Carts() {
   return (
     <>
       <Navbar />
-      <Box border="1px" borderColor="#EDEDED" w="90%" ms="75px" />
-      <Box py="75px" w={{base: '90%', '2xl': '80%'}} mt="-50px" m="auto">
+      <Box border="1px" borderColor="#EDEDED" w="90%" />
+      <Box py='10' w={{base: '90%', '2xl': '80%'}} mt="-50px" m="auto">
         <Breadcrums />
         <Text fontWeight="bold" fontSize="40px" mt="20px">
           Your Cart
