@@ -1,16 +1,16 @@
-import { Text, Box, Grid, GridItem } from '@chakra-ui/react';
-import Breadcrums from './components/breadcrums';
-import ListCheckout from './components/ListCheckoutCard';
-import OrderSummary from './components/orderSummart';
-import Navbar from '../../components/navbar';
-import Footers from '../../components/footers';
+import { Text, Box, Grid, GridItem } from "@chakra-ui/react";
+import Breadcrums from "./components/breadcrums";
+import ListCheckout from "./components/ListCheckoutCard";
+import OrderSummary from "./components/orderSummart";
+import Footers from "../../components/footers";
+import Navbar from "../../components/navbar";
 
 function Carts() {
   return (
     <>
       <Navbar />
       <Box border="1px" borderColor="#EDEDED" w="90%" ms="75px" />
-      <Box p="75px" mt="-50px">
+      <Box py="75px" w={{base: '90%', '2xl': '80%'}} mt="-50px" m="auto">
         <Breadcrums />
         <Text fontWeight="bold" fontSize="40px" mt="20px">
           Your Cart

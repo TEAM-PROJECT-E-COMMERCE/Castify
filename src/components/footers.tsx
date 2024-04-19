@@ -13,15 +13,13 @@ import {
   import { FaRegCopyright } from "react-icons/fa";
   import { FaLocationDot } from "react-icons/fa6";
   import { MapContainer, TileLayer } from "react-leaflet";
-  
-  // 🎀🎀🎀 don't forget those they are so important 🎀🎀🎀
   import "leaflet/dist/leaflet.css";
   
   const Footers = () => {
     return (
       <>
         <Box
-          w="80%"
+          w={{base: '90%', '2xl': '80%'}}
           m="auto"
           bg="black"
           textAlign="center"
@@ -42,7 +40,7 @@ import {
         </Box>
   
         <Box bg="#F0F0F0" pt="32" mt="-70px">
-          <Grid w="80%" templateColumns="repeat(9, 1fr)" gap={6} m="auto">
+          <Grid w={{base: '90%', '2xl': '80%'}} templateColumns="repeat(9, 1fr)" gap={6} m="auto">
             <GridItem
               colSpan={1}
               display="flex"
