@@ -10,7 +10,7 @@ function Breadcrums() {
         </BreadcrumbItem>
 
         <BreadcrumbItem isCurrentPage>
-          <BreadcrumbLink href="/Checkout">Checkout</BreadcrumbLink>
+          <BreadcrumbLink href="/carts">Carts</BreadcrumbLink>
         </BreadcrumbItem>
       </Breadcrumb>
     </>

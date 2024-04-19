@@ -16,17 +16,18 @@ import {
 import Navbar from "../../components/navbar";
 import Footers from "../../components/footers";
 import Breadcrums from "./components/breadcrums";
-import PreviewImage from "./components/privewImage";
+import PreviewImage from "./components/previewImage";
 import DetailCard from "./components/detailCard";
 import Reviews from "./components/reviews";
+import Recomendation from "./components/recomendation";
 
 const DetailProduct = () => {
   return (
     <>
       <Navbar />
 
-      <Box h="100vh">
-        <Box w="80%" h="100%" m="auto">
+      <Box>
+        <Box w="80%" h="100%" m="auto" mb="20">
           <Breadcrums />
 
           <Grid templateColumns="repeat(2, 1fr)" gap={5} mt="50px">
@@ -34,12 +35,14 @@ const DetailProduct = () => {
               <PreviewImage />
             </GridItem>
 
-            <GridItem colSpan={1} pl='5'>
+            <GridItem colSpan={1} pl="5">
               <DetailCard />
             </GridItem>
           </Grid>
 
           <Reviews />
+
+          <Recomendation />
         </Box>
       </Box>
 

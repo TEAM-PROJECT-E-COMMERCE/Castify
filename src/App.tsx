@@ -3,7 +3,7 @@ import Home from './pages/homes';
 import Category from './pages/category/category';
 import LoginPage from "./pages/login/Index";
 import RegisterPage from "./pages/registers";
-import Checkout from './pages/checkout/checkout';
+import Carts from './pages/carts/carts';
 import DetailProduct from './pages/detailProduct/detailProduct';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           <Route path="/detail-product" element={<DetailProduct />} />
           <Route path="/register" element={<RegisterPage/>} />
           <Route path="/login" element={<LoginPage/>} />
-          <Route path="/checkout" element={<Checkout/>} />
+          <Route path="/carts" element={<Carts/>} />
         </Routes>
     </>
   );

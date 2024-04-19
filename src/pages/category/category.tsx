@@ -5,8 +5,8 @@ import { IoStarSharp } from "react-icons/io5";
 import dataMobel from "./mocks/dataMobel.json";
 import { Rating, Star } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
-import Footers from "../../components/footers";
 import Navbar from "../../components/navbar";
+import Footers from "../../components/footers";
 
 function Category() {
   const myStyles = {
