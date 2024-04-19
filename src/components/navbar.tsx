@@ -15,7 +15,9 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <Flex gap={5} p={5} justifyContent={"center"} alignItems={"center"}>
+      <Flex gap={5} p={5} justifyContent={"center"} alignItems={"center"} 
+          borderBottom={"1px"}
+          borderColor={"gray"}>
         <NavLink to={"/"}>
           <Heading
             cursor={"pointer"}
@@ -61,7 +63,7 @@ const Navbar = () => {
         >
           <MdAddShoppingCart size={25} color="gray.300" />
         </Button>
-        <NavLink to={"/login"}>
+        <NavLink to={"/myProfile"}>
           <Button
             p={2}
             rounded={"full"}

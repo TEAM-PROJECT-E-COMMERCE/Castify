@@ -1,11 +1,10 @@
-import { Box, Grid, Text, Image, NumberInput } from '@chakra-ui/react';
-import Breadcrums from './components/breadcrums';
-import FiltersCards from './components/filtersCards';
-import { IoStarSharp } from 'react-icons/io5';
-import dataMobel from './mocks/dataMobel.json';
+import { Box, Grid, Image, Text } from '@chakra-ui/react';
 import { Rating, Star } from '@smastrom/react-rating';
 import '@smastrom/react-rating/style.css';
-import Navbar from '../../components/Navbar';
+import Navbar from '../../components/navbar';
+import Breadcrums from './components/breadcrums';
+import FiltersCards from './components/filtersCards';
+import dataMobel from './mocks/dataMobel.json';
 
 function Category() {
   const myStyles = {
