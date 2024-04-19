@@ -1,5 +1,5 @@
 import { Box, Button, Card, Divider, Flex, Heading, Text } from "@chakra-ui/react";
-import Navbar from "../../components/Navbar";
+import Navbar from "../../components/navbar";
 import ListBrands from "./components/ListBrands";
 import CardProduct from "./components/newArivalscomp/CardProduct";
 import CardBestSeller from "./components/bestSellers/CardBestSeller";
