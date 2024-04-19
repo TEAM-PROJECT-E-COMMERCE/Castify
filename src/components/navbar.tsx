@@ -6,37 +6,87 @@ import {
   InputGroup,
   InputLeftElement,
   Text,
+  Image,
+  Box,
+  Grid,
+  GridItem,
 } from "@chakra-ui/react";
 import { FaUser } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
 import { MdAddShoppingCart } from "react-icons/md";
 import { NavLink } from "react-router-dom";
+import logo from "..//assets/AutoLux04.svg";
+import logoMobile from "..//assets/AutoLux02.svg";
 
 const Navbar = () => {
   return (
     <>
+<<<<<<< HEAD
       <Flex gap={5} p={5} justifyContent={"center"} alignItems={"center"} 
           borderBottom={"1px"}
           borderColor={"gray"}>
         <NavLink to={"/"}>
           <Heading
+=======
+      <Grid
+        templateColumns="repeat(12, 1fr)"
+        py={5}
+        // justifyContent={"center"}
+        alignItems={"center"}
+        w={{ base: "90%", "2xl": "80%" }}
+        m="auto"
+        gap="5"
+      >
+        <GridItem colSpan={2}>
+          <NavLink to={"/"}>
+            {/* <Heading
+>>>>>>> e0a0976607633ea257773a408664ae0eb0f31bd5
             cursor={"pointer"}
             _hover={{ bg: "transparent", color: "gray" }}
           >
             AutoLux
-          </Heading>
-        </NavLink>
-        <Text cursor={"pointer"} _hover={{ bg: "transparent", color: "gray" }}>
-          Brands
-        </Text>
-        <Text cursor={"pointer"} _hover={{ bg: "transparent", color: "gray" }}>
-          New Arrivals
-        </Text>
-        <Text cursor={"pointer"} _hover={{ bg: "transparent", color: "gray" }}>
-          Best seller
-        </Text>
+          </Heading> */}
+            <Image
+              src={logo}
+              alt="AutoLux"
+              w="100%"
+              display={{ base: "none", md: "block" }}
+            />
+            <Image
+              src={logoMobile}
+              alt="AutoLux"
+              w="40%"
+              display={{ base: "block", md: "none" }}
+            />
+          </NavLink>
+        </GridItem>
+
+        <GridItem colSpan={3}>
+        <Flex gap={{ base: 5, "2xl": 10 }} justifyContent="center" alignItems="center">
+          <Text
+            cursor={"pointer"}
+            _hover={{ bg: "transparent", color: "gray" }}
+          >
+            Brands
+          </Text>
+          <Text
+            cursor={"pointer"}
+            _hover={{ bg: "transparent", color: "gray" }}
+          >
+            New Arrivals
+          </Text>
+          <Text
+            cursor={"pointer"}
+            _hover={{ bg: "transparent", color: "gray" }}
+          >
+            Best seller
+          </Text>
+        </Flex>
+        </GridItem>
+
+        <GridItem colSpan={6}>
         <InputGroup
-          w={"50%"}
+          // w={"100%"}
           borderColor={"black"}
           rounded={"100px"}
           bg={"gray.200"}
@@ -55,6 +105,7 @@ const Navbar = () => {
             // value={searchQuery}
           />
         </InputGroup>
+<<<<<<< HEAD
         <Button
           p={2}
           rounded={"full"}
@@ -64,16 +115,34 @@ const Navbar = () => {
           <MdAddShoppingCart size={25} color="gray.300" />
         </Button>
         <NavLink to={"/myProfile"}>
+=======
+        </GridItem>
+
+        <GridItem colSpan={1}>
+        <Flex gap='3'>
+>>>>>>> e0a0976607633ea257773a408664ae0eb0f31bd5
           <Button
             p={2}
             rounded={"full"}
             bg={"transparent"}
             _hover={{ bg: "transparent", color: "gray" }}
           >
-            <FaUser color="gray.300" size={25} />
+            <MdAddShoppingCart size={25} color="gray.300" />
           </Button>
-        </NavLink>
-      </Flex>
+          <NavLink to={"/login"}>
+            <Button
+              p={2}
+              rounded={"full"}
+              bg={"transparent"}
+              _hover={{ bg: "transparent", color: "gray" }}
+            >
+              <FaUser color="gray.300" size={25} />
+            </Button>
+            {/* <Button>Login</Button> */}
+          </NavLink>
+        </Flex>
+        </GridItem>
+      </Grid>
     </>
   );
 };
