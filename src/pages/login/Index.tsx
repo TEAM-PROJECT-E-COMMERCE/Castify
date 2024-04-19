@@ -64,10 +64,10 @@ const LoginPage = () => {
         </Box>
 
         <Text>Email address</Text>
-        <Input my={2} placeholder="Fullname" size="md" />
+        <Input my={2} placeholder="Email" size="md" />
 
         <Flex justifyContent={"space-between"}>
-          <Text>Phone number</Text>
+          <Text>Password</Text>
           <Stack direction="row" align="center">
             <IconButton
               h="1.75rem"
@@ -85,6 +85,7 @@ const LoginPage = () => {
           my={2}
           size="md"
           pr="4.5rem"
+          name="password"
           type={show ? "text" : "password"}
           placeholder="Enter password"
         />

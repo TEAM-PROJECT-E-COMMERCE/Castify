@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+import { Box, Grid, Image, Text } from '@chakra-ui/react';
+import { Rating, Star } from '@smastrom/react-rating';
+import '@smastrom/react-rating/style.css';
+import Navbar from '../../components/navbar';
+import Breadcrums from './components/breadcrums';
+import FiltersCards from './components/filtersCards';
+import dataMobel from './mocks/dataMobel.json';
+=======
 import { Box, Grid, Text, Image, NumberInput } from "@chakra-ui/react";
 import Breadcrums from "./components/breadcrums";
 import FiltersCards from "./components/filtersCards";
@@ -7,6 +16,7 @@ import { Rating, Star } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import Navbar from "../../components/navbar";
 import Footers from "../../components/footers";
+>>>>>>> e0a0976607633ea257773a408664ae0eb0f31bd5
 
 function Category() {
   const myStyles = {

@@ -21,6 +21,13 @@ import logoMobile from "..//assets/AutoLux02.svg";
 const Navbar = () => {
   return (
     <>
+<<<<<<< HEAD
+      <Flex gap={5} p={5} justifyContent={"center"} alignItems={"center"} 
+          borderBottom={"1px"}
+          borderColor={"gray"}>
+        <NavLink to={"/"}>
+          <Heading
+=======
       <Grid
         templateColumns="repeat(12, 1fr)"
         py={5}
@@ -33,6 +40,7 @@ const Navbar = () => {
         <GridItem colSpan={2}>
           <NavLink to={"/"}>
             {/* <Heading
+>>>>>>> e0a0976607633ea257773a408664ae0eb0f31bd5
             cursor={"pointer"}
             _hover={{ bg: "transparent", color: "gray" }}
           >
@@ -97,10 +105,22 @@ const Navbar = () => {
             // value={searchQuery}
           />
         </InputGroup>
+<<<<<<< HEAD
+        <Button
+          p={2}
+          rounded={"full"}
+          bg={"transparent"}
+          _hover={{ bg: "transparent", color: "gray" }}
+        >
+          <MdAddShoppingCart size={25} color="gray.300" />
+        </Button>
+        <NavLink to={"/myProfile"}>
+=======
         </GridItem>
 
         <GridItem colSpan={1}>
         <Flex gap='3'>
+>>>>>>> e0a0976607633ea257773a408664ae0eb0f31bd5
           <Button
             p={2}
             rounded={"full"}
