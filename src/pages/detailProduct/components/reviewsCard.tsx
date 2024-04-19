@@ -19,7 +19,7 @@ const ReviewsCard = (data: any) => {
       flexDirection="column"
       gap="2"
       border="1px solid #b3b3b3"
-      h="22vh"
+      h="200px"
       rounded="10px"
       p="5"
       pr="0"

@@ -4,7 +4,8 @@ import {
     Grid,
     GridItem,
     Flex,
-    Button,
+  Button,
+    Image,
   } from "@chakra-ui/react";
   import { FaXTwitter } from "react-icons/fa6";
   import { FaFacebook } from "react-icons/fa";
@@ -12,8 +13,9 @@ import {
   import { FaGithub } from "react-icons/fa";
   import { FaRegCopyright } from "react-icons/fa";
   import { FaLocationDot } from "react-icons/fa6";
-  import { MapContainer, TileLayer } from "react-leaflet";
-  import "leaflet/dist/leaflet.css";
+import { MapContainer, TileLayer } from "react-leaflet";
+  import logo from '../assets/AutoLux01.svg'
+import "leaflet/dist/leaflet.css";
   
   const Footers = () => {
     return (
@@ -50,9 +52,10 @@ import {
               py="5"
               pb='20'
             >
-              <Text fontWeight="bold" fontSize="3xl" mb='10'>
+              {/* <Text fontWeight="bold" fontSize="3xl" mb='10'>
                 AutoLux
-              </Text>
+              </Text> */}
+              <Image src={logo} alt='logo' />
   
               <Flex gap="3">
                 <Button
