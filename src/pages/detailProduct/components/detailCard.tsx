@@ -27,8 +27,17 @@ const DetailCard = () => {
         {datas[0].harga}
       </Text>
 
-      <Box h="16vh" overflow="auto">
-        <Text>{datas[0].description}</Text>
+      <Box h="16vh" overflowY="auto" sx={{
+          "&::-webkit-scrollbar": {
+            width: "6px",
+            backgroundColor: `none`,
+          },
+          "&::-webkit-scrollbar-thumb": {
+            backgroundColor: `black`,
+            borderRadius: "3px",
+          },
+        }}>
+        <Text pr='5'>{datas[0].description}</Text>
       </Box>
 
       <Flex h="30%" flexDirection="column" justifyContent="end" gap="5">

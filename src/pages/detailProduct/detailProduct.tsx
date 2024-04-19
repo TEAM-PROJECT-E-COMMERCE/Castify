@@ -27,7 +27,7 @@ const DetailProduct = () => {
       <Navbar />
 
       <Box>
-        <Box w="80%" h="100%" m="auto" mb="20">
+        <Box w={{base: '90%', '2xl': '80%'}} h="100%" m="auto" mb="20">
           <Breadcrums />
 
           <Grid templateColumns="repeat(2, 1fr)" gap={5} mt="50px">
