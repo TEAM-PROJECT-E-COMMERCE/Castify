@@ -18,22 +18,13 @@ function Breadcrums() {
           spacing="8px"
           separator={<ChevronRightIcon color="gray.500" />}
         >
-          <BreadcrumbLink color="gray.500" href="/category">
-            Category
-          </BreadcrumbLink>
-        </BreadcrumbItem>
-
-        <BreadcrumbItem
-          spacing="8px"
-          separator={<ChevronRightIcon color="gray.500" />}
-        >
-          <BreadcrumbLink color="gray.500" href="/category">
-            Brands
+          <BreadcrumbLink color="gray.500" href="/carts">
+            Carts
           </BreadcrumbLink>
         </BreadcrumbItem>
 
         <BreadcrumbItem isCurrentPage>
-          <BreadcrumbLink href="/detail-product">Chevrolet</BreadcrumbLink>
+          <BreadcrumbLink href="/checkout">Checkout</BreadcrumbLink>
         </BreadcrumbItem>
       </Breadcrumb>
     </>
