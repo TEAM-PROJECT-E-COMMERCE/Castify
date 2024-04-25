@@ -13,7 +13,7 @@ const ButtonAdd = () => {
   const input = getInputProps();
   return (
     <>
-      <HStack maxW="150px" ms='300px' mt='-43px'>
+      <HStack maxW="150px">
         <Button {...dec}>-</Button>
         <Input {...input} />
         <Button {...inc}>+</Button>

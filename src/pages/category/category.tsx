@@ -7,7 +7,7 @@ import "@smastrom/react-rating/style.css";
 import Navbar from "../../components/navbar";
 import Footers from "../../components/footers";
 
-function  Category() {
+function Category() {
   const myStyles = {
     itemShapes: Star,
     activeFillColor: "#FFC663",

@@ -3,16 +3,14 @@ import { MdOutlineDiscount } from 'react-icons/md';
 
 function InputPromo() {
   return (
-    <>
       <Box>
-        <InputGroup w='320px'>
+        <InputGroup w='100%'>
           <InputLeftElement pointerEvents="none">
             <MdOutlineDiscount color='gray.500' />
           </InputLeftElement>
           <Input type="tel" placeholder="Add Promo Code" borderRadius='50px' />
         </InputGroup>
       </Box>
-    </>
   );
 }
 
