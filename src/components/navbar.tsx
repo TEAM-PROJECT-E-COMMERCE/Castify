@@ -15,12 +15,12 @@ import { FaUser } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
 import { MdAddShoppingCart } from "react-icons/md";
 import { NavLink } from "react-router-dom";
-import logo from "..//assets/AutoLux04.svg";
-import logoMobile from "..//assets/AutoLux02.svg";
+import logo from "..//assets/Castify03.svg";
+import logoMobile from "..//assets/Castify.svg";
 
 const Navbar = () => {
   return (
-    <>
+    <Box boxShadow='md'>
       <Grid
         templateColumns="repeat(12, 1fr)"
         py={5}
@@ -123,7 +123,7 @@ const Navbar = () => {
         </Flex>
         </GridItem>
       </Grid>
-    </>
+    </Box>
   );
 };
 

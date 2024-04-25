@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const BoxCategory = () => {
   return (
-    <>
+    <Box w={{xl: '100%', '2xl': '80%'}} m='auto'>
       <Box p={4} h={"auto"} bg={"#F0F0F0"} rounded={"xl"}>
         <Box justifyContent={"center"} py={4} display={"flex"}>
           <Heading>BROWSE BY CAR CATEGORY</Heading>
@@ -76,7 +76,7 @@ const BoxCategory = () => {
           </GridItem>
         </Grid>
       </Box>
-    </>
+    </Box>
   );
 };
 

@@ -1,4 +1,12 @@
-import { Box, Button, Card, Divider, Flex, Heading, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Card,
+  Divider,
+  Flex,
+  Heading,
+  Text,
+} from "@chakra-ui/react";
 import ListBrands from "./components/ListBrands";
 import CardProduct from "./components/newArivalscomp/CardProduct";
 import CardBestSeller from "./components/bestSellers/CardBestSeller";
@@ -69,7 +77,7 @@ const Home = () => {
       <CardProduct />
       <Box border={"1px solid gray"} mb={10} />
       <CardBestSeller />
-      <Box p={4} px={16} >
+      <Box p={4} px={16}>
         <BoxCategory />
       </Box>
       <Footers />
