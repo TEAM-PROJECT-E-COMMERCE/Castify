@@ -1,24 +1,10 @@
-<<<<<<< HEAD
-import {
-  Box,
-  Button,
-  Card,
-  Divider,
-  Flex,
-  Heading,
-  Text,
-} from "@chakra-ui/react";
-=======
 import { Box, Button, Card, Divider, Flex, Heading, Text } from "@chakra-ui/react";
->>>>>>> e0a0976607633ea257773a408664ae0eb0f31bd5
 import ListBrands from "./components/ListBrands";
 import CardProduct from "./components/newArivalscomp/CardProduct";
 import CardBestSeller from "./components/bestSellers/CardBestSeller";
 import Navbar from "../../components/navbar";
-<<<<<<< HEAD
 import BoxCategory from "./components/boxCategory/BoxCategory";
-=======
->>>>>>> e0a0976607633ea257773a408664ae0eb0f31bd5
+import Footers from "../../components/footers";
 
 const Home = () => {
   return (
@@ -86,6 +72,7 @@ const Home = () => {
       <Box p={4} px={16} >
         <BoxCategory />
       </Box>
+      <Footers />
     </>
   );
 };
