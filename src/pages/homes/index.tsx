@@ -3,6 +3,8 @@ import ListBrands from "./components/ListBrands";
 import CardProduct from "./components/newArivalscomp/CardProduct";
 import CardBestSeller from "./components/bestSellers/CardBestSeller";
 import Navbar from "../../components/navbar";
+import BoxCategory from "./components/boxCategory/BoxCategory";
+import Footers from "../../components/footers";
 
 const Home = () => {
   return (
@@ -70,6 +72,7 @@ const Home = () => {
       <Box p={4} px={16} >
         <BoxCategory />
       </Box>
+      <Footers />
     </>
   );
 };

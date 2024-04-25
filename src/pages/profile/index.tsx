@@ -136,6 +136,7 @@ const MyProfile = () => {
           </Card>
         </Box>
       </Box>
+      </>
     </>
   );
 };
