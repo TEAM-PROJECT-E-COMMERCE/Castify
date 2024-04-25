@@ -1,8 +1,7 @@
-import React from "react";
-import { Flex, Text, Box, Image, Button, Link } from "@chakra-ui/react";
+import { Flex, Image, Link, Text } from "@chakra-ui/react";
 import Ratings from "../features/Rating";
 
-const ItemCard = (data) => {
+const ItemCard = (data: any) => {
   console.log("data :", data);
 
   return (

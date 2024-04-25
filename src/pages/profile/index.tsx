@@ -11,6 +11,7 @@ import Navbar from "../../components/navbar";
 import { NavLink } from "react-router-dom";
 import { CgProfile } from "react-icons/cg";
 import { RiFilePaper2Line } from "react-icons/ri";
+import Footers from "../../components/footers";
 
 const MyProfile = () => {
   return (
@@ -136,6 +137,7 @@ const MyProfile = () => {
           </Card>
         </Box>
       </Box>
+      <Footers/>
     </>
   );
 };

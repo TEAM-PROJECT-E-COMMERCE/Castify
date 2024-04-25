@@ -2,7 +2,7 @@ import React from "react";
 import { Flex, Text } from "@chakra-ui/react";
 import { Rating, Star } from "@smastrom/react-rating";
 
-const Ratings = (rating) => {
+const Ratings = (rating:any) => {
   const myStyles = {
     itemShapes: Star,
     activeFillColor: "#FFC663",
