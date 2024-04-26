@@ -1,11 +1,11 @@
 import { Route, Routes } from 'react-router-dom';
+import Carts from './pages/carts/carts';
 import Category from './pages/category/category';
+import DetailProduct from './pages/detailProduct/detailProduct';
 import Home from './pages/homes';
 import LoginPage from "./pages/login/Index";
-import RegisterPage from "./pages/registers";
-import Carts from './pages/carts/carts';
-import DetailProduct from './pages/detailProduct/detailProduct';
 import MyProfile from './pages/profile';
+import RegisterPage from "./pages/registers";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route path="/carts" element={<Carts/>} />
         </Routes>
     </>
-  );
+  ); 
 }
 
 export default App;
