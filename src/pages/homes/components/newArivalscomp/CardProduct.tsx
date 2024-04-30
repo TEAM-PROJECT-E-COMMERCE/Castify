@@ -1,7 +1,6 @@
-import React from "react";
+import { Button, Flex, GridItem, Heading } from "@chakra-ui/react";
+import ItemCard from "../../../../components/itemCard";
 import dataCars from "../../mock/dataNewArivals";
-import NewArivals from "./NewArivals";
-import { Button, Flex, Heading } from "@chakra-ui/react";
 
 export default function CardProduct() {
   return (
@@ -10,16 +9,13 @@ export default function CardProduct() {
         <Heading>NEW ARRIVALS</Heading>
       </Flex>
       <Flex p={10} w={"full"} justifyContent={"center"} gap={10}>
-        {dataCars.map((item) => (
-          <NewArivals
-            key={item.id}
-            id={item.id}
-            name={item.name}
-            image={item.image}
-            rate={item.rate}
-            price={item.price}
-          />
-        ))}
+      {dataCars.map((data, index) => {
+          return (
+            <GridItem key={index} colSpan={1}>
+              <ItemCard data={data} />
+            </GridItem>
+          );
+        })}
       </Flex>
       <Flex w={"full"} justifyContent={"center"} alignItems={"center"}>
         <Button

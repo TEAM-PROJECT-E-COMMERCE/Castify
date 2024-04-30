@@ -1,7 +1,6 @@
 import { Box, Grid, Text, Image, NumberInput } from "@chakra-ui/react";
 import Breadcrums from "./components/breadcrums";
 import FiltersCards from "./components/filtersCards";
-import { IoStarSharp } from "react-icons/io5";
 import dataMobel from "./mocks/dataMobel.json";
 import { Rating, Star } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";

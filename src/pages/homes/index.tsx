@@ -1,8 +1,18 @@
-import { Box, Button, Card, Divider, Flex, Heading, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Card,
+  Divider,
+  Flex,
+  Heading,
+  Text,
+} from "@chakra-ui/react";
 import ListBrands from "./components/ListBrands";
 import CardProduct from "./components/newArivalscomp/CardProduct";
 import CardBestSeller from "./components/bestSellers/CardBestSeller";
 import Navbar from "../../components/navbar";
+import BoxCategory from "./components/boxCategory/BoxCategory";
+import Footers from "../../components/footers";
 
 const Home = () => {
   return (
@@ -16,7 +26,7 @@ const Home = () => {
         p={10}
         py={20}
       >
-        <Card w={"50%"} p={8}  rounded={"2xl"}>
+        <Card w={"50%"} p={8} rounded={"2xl"}>
           <Heading mb={4} fontFamily={"abril"} pt={5} w={"50%"}>
             FIND A CAR THAT SUITS YOUR STYLE
           </Heading>
@@ -37,30 +47,40 @@ const Home = () => {
           </Button>
           <Flex justifyContent={"center"} mb={4}>
             <Flex flexDirection={"column"} mr={10}>
-              <Heading fontWeight={'bold'} fontSize={'xxx-large'} >1+</Heading>
-              <Text fontSize={15} textAlign={'center'} color={"gray.500"}>
+              <Heading fontWeight={"bold"} fontSize={"xxx-large"}>
+                1+
+              </Heading>
+              <Text fontSize={15} textAlign={"center"} color={"gray.500"}>
                 International Brands
               </Text>
             </Flex>
             <Flex flexDirection={"column"} mr={10}>
-              <Heading fontWeight={'bold'} fontSize={'xxx-large'} >2.000+</Heading>
-              <Text fontSize={15} textAlign={'center'} color={"gray.500"}>
+              <Heading fontWeight={"bold"} fontSize={"xxx-large"}>
+                2.000+
+              </Heading>
+              <Text fontSize={15} textAlign={"center"} color={"gray.500"}>
                 Cars Available
               </Text>
             </Flex>
             <Flex flexDirection={"column"} mr={10}>
-              <Heading fontWeight={'bold'} fontSize={'xxx-large'} >90.000+</Heading>
-              <Text fontSize={15} textAlign={'center'} color={"gray.500"}>
-              Happy Customers
+              <Heading fontWeight={"bold"} fontSize={"xxx-large"}>
+                90.000+
+              </Heading>
+              <Text fontSize={15} textAlign={"center"} color={"gray.500"}>
+                Happy Customers
               </Text>
             </Flex>
           </Flex>
         </Card>
       </Box>
-      <ListBrands/>
-      <CardProduct/>
-      <Box border={"1px solid gray"} mb={10}/>
-      <CardBestSeller/>
+      <ListBrands />
+      <CardProduct />
+      <Box border={"1px solid gray"} mb={10} />
+      <CardBestSeller />
+      <Box p={4} px={16}>
+        <BoxCategory />
+      </Box>
+      <Footers />
     </>
   );
 };

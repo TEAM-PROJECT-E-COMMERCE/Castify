@@ -13,7 +13,7 @@ const ListBrands = () => {
       gap={10}
     >
       <Marquee gradient={false} speed={100}>
-        <Heading>Toyota Volkswagensaya Honda Hyundai Ford Nissan Chevrolet Kia BMW</Heading>
+        <Heading fontFamily={"abril"}>Toyota Volkswagen Honda Hyundai Ford Nissan Chevrolet Kia BMW </Heading>
       </Marquee>
     </Box>
   );
