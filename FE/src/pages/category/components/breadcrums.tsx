@@ -12,6 +12,10 @@ function Breadcrums() {
         <BreadcrumbItem isCurrentPage>
           <BreadcrumbLink href="/category">Category</BreadcrumbLink>
         </BreadcrumbItem>
+
+        <BreadcrumbItem isCurrentPage>
+          <BreadcrumbLink>Bait</BreadcrumbLink>
+        </BreadcrumbItem>
       </Breadcrumb>
     </>
   );

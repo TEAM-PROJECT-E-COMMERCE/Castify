@@ -16,7 +16,7 @@ function FiltersCards() {
               <h2>
                 <AccordionButton>
                   <Box as="span" flex="1" textAlign="left">
-                    Brand
+                    Category
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
@@ -26,42 +26,6 @@ function FiltersCards() {
                   <option value="option1">Mitsubishi</option>
                   <option value="option2">Toyota</option>
                   <option value="option3">Daihatsu</option>
-                </Select>
-              </AccordionPanel>
-            </AccordionItem>
-
-            <AccordionItem mt="10px">
-              <h2>
-                <AccordionButton>
-                  <Box as="span" flex="1" textAlign="left">
-                    Type
-                  </Box>
-                  <AccordionIcon />
-                </AccordionButton>
-              </h2>
-              <AccordionPanel pb={4}>
-                <Select border="1px" borderColor="#EDEDED" mt="5px" borderRadius="5px">
-                  <option value="option1">Sedan</option>
-                  <option value="option2">sUV</option>
-                  <option value="option3">Crossover</option>
-                </Select>
-              </AccordionPanel>
-            </AccordionItem>
-
-            <AccordionItem mt="10px">
-              <h2>
-                <AccordionButton>
-                  <Box as="span" flex="1" textAlign="left">
-                    Model
-                  </Box>
-                  <AccordionIcon />
-                </AccordionButton>
-              </h2>
-              <AccordionPanel pb={4}>
-                <Select border="1px" borderColor="#EDEDED" mt="5px" borderRadius="5px" size="md">
-                  <option value="option1">Sedan</option>
-                  <option value="option2">sUV</option>
-                  <option value="option3">Crossover</option>
                 </Select>
               </AccordionPanel>
             </AccordionItem>

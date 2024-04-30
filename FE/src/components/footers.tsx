@@ -37,7 +37,7 @@ const Footers = () => {
           py={{ base: "5" }}
           m="auto"
         >
-          STAY UPTO DATE ABOUT OUR LATEST OFFERS
+          STAY UP TO DATE ABOUT OUR LATEST OFFERS
         </Text>
       </Box>
 
