@@ -4,10 +4,10 @@
     "slug": "Castify",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/Castify.svg",
+    "icon": "./assets/logo01.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo02.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -24,7 +24,7 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo01.png"
     }
   }
 }
