@@ -4,14 +4,7 @@ import { Text, View } from "react-native";
 
 export default function HomeScreen({ navigation }: any) {
   return (
-    <View
-      style={{
-        flex: 1,
-        alignItems: "center",
-        justifyContent: "center",
-        gap: 10,
-      }}
-    >
+    <View style={{ flex: 1, alignItems: "center", justifyContent: "center", gap: 10 }}>
       <Text>Home Screen</Text>
 
       <Button
