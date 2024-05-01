@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Mobile",
-    "slug": "Mobile",
+    "name": "Castify",
+    "slug": "Castify",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Castify.svg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",

@@ -1,17 +1,30 @@
 import { AddIcon } from "@gluestack-ui/themed";
-// import { Button, ButtonIcon, ButtonText } from "@gluestack-ui/themed";
-import { Text, View, Button } from "react-native";
+import { Button, ButtonIcon, ButtonText } from "@gluestack-ui/themed";
+import { Text, View } from "react-native";
 
-export default function Home({ navigation }: any) {
+export default function HomeScreen({ navigation }: any) {
   return (
-    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+    <View
+      style={{
+        flex: 1,
+        alignItems: "center",
+        justifyContent: "center",
+        gap: 10,
+      }}
+    >
       <Text>Home Screen</Text>
-      <Button
-        title="Go to Details"
-        onPress={() => navigation.navigate("Details")}
-      />
 
-      {/* <Button
+      <Button
+        size="md"
+        variant="solid"
+        action="primary"
+        isDisabled={false}
+        isFocusVisible={false}
+        onPress={() => navigation.navigate("Categories")}
+      >
+        <ButtonText>Go to category </ButtonText>
+      </Button>
+      <Button
         size="md"
         variant="solid"
         action="primary"
@@ -20,8 +33,7 @@ export default function Home({ navigation }: any) {
         onPress={() => navigation.navigate("Details")}
       >
         <ButtonText>Go to details </ButtonText>
-        <ButtonIcon as={AddIcon} />
-      </Button> */}
+      </Button>
     </View>
   );
 }
