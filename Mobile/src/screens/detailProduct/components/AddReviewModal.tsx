@@ -5,12 +5,16 @@ import {
   CloseIcon,
   Heading,
   Icon,
+  Input,
+  InputField,
   Modal,
   ModalBackdrop,
   ModalBody,
   ModalCloseButton,
   ModalFooter,
   ModalHeader,
+  Textarea,
+  TextareaInput,
 } from "@gluestack-ui/themed";
 import { Text } from "@gluestack-ui/themed";
 import { ModalContent } from "@gluestack-ui/themed";
@@ -58,12 +62,17 @@ export default function AddButtonReview() {
                 <Icon as={CloseIcon} />
               </ModalCloseButton>
             </ModalHeader>
-            <ModalBody bgColor="red" m={0} p={0}>
-              <Rating
-                ratingCount={5}
-                startingValue={ratingValue}
+            <ModalBody m={0} p={0}>
+              <AirbnbRating
+                defaultRating={ratingValue}
                 onFinishRating={handleRatingChange}
+                ratingContainerStyle={{ paddingVertical: 0, marginTop: -15 }}
+                starContainerStyle={{ gap: 17 }}
               />
+
+              <Textarea size="md" w="$64" borderWidth={0}>
+                <TextareaInput placeholder="Input Message" />
+              </Textarea>
             </ModalBody>
             <ModalFooter>
               <Button
@@ -71,6 +80,7 @@ export default function AddButtonReview() {
                 size="sm"
                 action="secondary"
                 mr="$3"
+                rounded={"$full"}
                 onPress={() => {
                   setShowModal(false);
                 }}
@@ -79,13 +89,15 @@ export default function AddButtonReview() {
               </Button>
               <Button
                 size="sm"
-                action="positive"
+                // action="positive"
+                bgColor="black"
+                rounded={"$full"}
                 borderWidth="$0"
                 onPress={() => {
                   setShowModal(false);
                 }}
               >
-                <ButtonText>Explore</ButtonText>
+                <ButtonText>Submit</ButtonText>
               </Button>
             </ModalFooter>
           </ModalContent>
