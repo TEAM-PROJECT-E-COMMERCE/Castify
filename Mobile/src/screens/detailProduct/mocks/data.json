@@ -1,0 +1,40 @@
+[
+    {
+        "name": "One Life Graphic T-Shirt",
+        "rating": 3.5,
+        "price": 20000,
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eveniet ullam atque, magnam quaerat maxime laboriosam incidunt optio, aut reiciendis sit qui fugit pariatur suscipit assumenda minus eius recusandae vitae ducimus? Similique",
+        "image": [
+            "https://api.kelaskita.com/storage/blog/banner/220302025120BBtips-memilih-alat-pancing-untuk-pemula.webp",
+            "https://upload.jaknot.com/images/products/4a1d10/original/mini-portable-extreme-pen-fishing-rod-length-pancing-pena.JPG",
+            "https://img.lazcdn.com/g/p/c5bd16b11ba20d0e0bf8716f948da63c.png_720x720q80.png"
+        ],
+        "reviews": [
+            {
+              "rating": 1,
+              "name": "Fullname1",
+              "message": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores excepturi nobis officiis adipisci fugit omnis cum, iste dolorum sequi eaque delectus tempora laboriosam eos sapiente, exercitationem sunt ex, fugiat nisi? Maiores velit"
+            },
+            {
+              "rating": 2,
+              "name": "Fullname3",
+              "message": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores excepturi nobis officiis adipisci fugit omnis cum, iste dolorum sequi eaque delectus tempora laboriosam eos sapiente, exercitationem sunt ex, fugiat nisi? Maiores velit ab perspiciatis, corrupti magnam fugit atque quisquam ut? Amet et saepe impedit beatae aperiam iste neque quas sed ea magnam repellendus a perspiciatis ducimus, corporis ab tempore omnis dolore quo voluptas. Nisi voluptas beatae neque assumenda quo fugit sequi illum ex dolore, laborum delectus ratione inventore fuga commodi soluta voluptatum dolorum pariatur maiores deleniti? Minus fugiat ullam, dolor sint doloremque odio veritatis architecto explicabo repellat, consectetur nesciunt voluptatibus?"
+            },
+            {
+              "rating": 1,
+              "name": "Fullname6",
+              "message": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores excepturi nobis officiis adipisci fugit omnis cum, iste dolorum sequi eaque delectus tempora laboriosam eos sapiente, exercitationem sunt ex, fugiat nisi? Maiores velit ab perspiciatis, corrupti magnam fugit atque quisquam ut? Amet et saepe impedit beatae aperiam iste neque quas sed ea magnam repellendus a perspiciatis ducimus, corporis ab tempore omnis dolore quo voluptas. Nisi voluptas beatae neque assumenda quo fugit sequi illum ex dolore, laborum delectus ratione inventore fuga commodi soluta voluptatum dolorum pariatur maiores deleniti? Minus fugiat ullam, dolor sint doloremque odio veritatis architecto explicabo repellat, consectetur nesciunt voluptatibus?"
+            },
+            {
+              "rating": 1,
+              "name": "Fullname2",
+              "message": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores excepturi nobis officiis adipisci fugit omnis cum, iste dolorum sequi eaque delectus tempora laboriosam eos sapiente, exercitationem sunt ex, fugiat nisi? Maiores velit ab perspiciatis, corrupti magnam fugit atque quisquam ut? Amet et saepe impedit beatae aperiam iste neque quas sed ea magnam repellendus a perspiciatis ducimus, corporis ab tempore omnis dolore quo voluptas. Nisi voluptas beatae neque assumenda quo fugit sequi illum ex dolore, laborum delectus ratione inventore fuga commodi soluta voluptatum dolorum pariatur maiores deleniti? Minus fugiat ullam, dolor sint doloremque odio veritatis architecto explicabo repellat, consectetur nesciunt voluptatibus?"
+            },
+            {
+              "rating": 1,
+              "name": "Fullname8",
+              "message": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores excepturi nobis officiis adipisci fugit omnis cum, iste dolorum sequi eaque delectus tempora laboriosam eos sapiente, exercitationem sunt ex, fugiat nisi? Maiores velit ab perspiciatis, corrupti magnam fugit atque quisquam ut? Amet et saepe impedit beatae aperiam iste neque quas sed ea magnam repellendus a perspiciatis ducimus, corporis ab tempore omnis dolore quo voluptas. Nisi voluptas beatae neque assumenda quo fugit sequi illum ex dolore, laborum delectus ratione inventore fuga commodi soluta voluptatum dolorum pariatur maiores deleniti? Minus fugiat ullam, dolor sint doloremque odio veritatis architecto explicabo repellat, consectetur nesciunt voluptatibus?"
+            }
+          ]
+    }
+]
