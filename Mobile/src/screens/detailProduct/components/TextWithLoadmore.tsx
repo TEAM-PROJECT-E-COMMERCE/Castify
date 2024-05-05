@@ -10,15 +10,11 @@ interface Loadmore {
 const TextWithLoadMore = ({ text, maxLength }: Loadmore) => {
   const [showFullText, setShowFullText] = useState(false);
 
-  const toggleShowFullText = () => {
-    setShowFullText(!showFullText);
-  };
-
   return (
     <View>
       <Text>{showFullText ? text : `${text.slice(0, maxLength)}...`}</Text>
       {!showFullText && text.length > maxLength && (
-        <Link onPress={toggleShowFullText}>
+        <Link onPress={() => setShowFullText(!showFullText)}>
           <Text textDecorationLine="underline">
             Loadmore
           </Text>

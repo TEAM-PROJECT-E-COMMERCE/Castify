@@ -6,6 +6,7 @@ import Images from "./components/Images";
 import Description from "./components/Description";
 import AddButton from "./components/AddButton";
 import Review from "./components/Review";
+import Recommendation from "./components/Recommendation";
 
 export default function DetailProductScreen() {
   // useEffect(() => {
@@ -33,6 +34,7 @@ export default function DetailProductScreen() {
         <AddButton />
 
         <Review data={datas[0].reviews} />
+        <Recommendation />
       </ScrollView>
     </View>
   );
