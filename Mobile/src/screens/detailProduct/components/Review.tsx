@@ -3,6 +3,7 @@ import { Button } from "react-native-paper";
 import { StarRatingDisplay } from "react-native-star-rating-widget";
 import AddButtonReview from "./AddReviewModal";
 import { View } from "react-native";
+import TextWithLoadMore from "./TextWithLoadmore";
 
 export default function Review(data: any) {
   // console.log(data.data);
@@ -41,7 +42,7 @@ export default function Review(data: any) {
               {item.name}
             </Text>
 
-            <Text>{item.message}</Text>
+            <TextWithLoadMore text={item.message} maxLength={200} />
           </Box>
         ))}
       </Box>
