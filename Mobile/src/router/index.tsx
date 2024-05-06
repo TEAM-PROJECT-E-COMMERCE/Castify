@@ -3,11 +3,11 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { NavigationContainer } from "@react-navigation/native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import HomeScreen from "../screens/home/Home";
-import CartScreen from "../screens/cart/Cart";
 import OrderScreen from "../screens/order/Order";
 import ProfileScreen from "../screens/profile/Profile";
 import DetailProductScreen from "../screens/detailProduct/DetailProduct";
 import CategoryScreen from "../screens/category/Category";
+import CartScreen from "../screens/cart/Cart";
 
 const Tab = createBottomTabNavigator();
 const HomeStack = createNativeStackNavigator();

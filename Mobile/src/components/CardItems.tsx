@@ -2,27 +2,24 @@ import { Box, HStack, Image, Text } from "@gluestack-ui/themed";
 import React from "react";
 import { StarRatingDisplay } from "react-native-star-rating-widget";
 
-export default function CardItems() {
+export default function CardItems(data: any) {
+  console.log(data.data);
+  const { name, harga, rating, image } = data.data;
+
   return (
-    <Box w="$full" h="$full">
-      <Image
-        w={"90%"}
-        h={200}
-        alt="product"
-        rounded={15}
-        source={
-          "https://img.lazcdn.com/g/p/c5bd16b11ba20d0e0bf8716f948da63c.png_720x720q80.png"
-        }
-      />
-      <Text fontWeight="$semibold">Polo with Contrast Trims</Text>
+    <Box w="$full" h="$full" p={10}>
+      <Image w={"100%"} h={200} alt="product" rounded={15} source={image} />
+      <Text fontWeight="$semibold" mt={10}>
+        {name.length > 40 ? `${name.slice(0, 40)}...` : name}
+      </Text>
 
       <HStack alignItems="center" ml={-5}>
-        <StarRatingDisplay starSize={20} rating={4} />
-        <Text>{4}/5</Text>
+        <StarRatingDisplay starSize={20} rating={rating} />
+        <Text>{rating}/5</Text>
       </HStack>
 
-      <Text fontWeight="bold" mt={5} fontSize={19}>
-        Rp. 20000
+      <Text fontWeight="bold" fontSize={19}>
+        {harga}
       </Text>
     </Box>
   );
